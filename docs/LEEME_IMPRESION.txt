@@ -1,0 +1,11 @@
+PATRONES PARA FUNDICION (arena en verde, aluminio ~7 % Si)
+
+PATRON_x1.013: patron ya escalado por la contraccion del aluminio (1,3 %). No lo reescales al imprimir.
+MAZAROTA_Dbase-Dtope x alto_imprimir_N: forma de la mazarota (tronco de cono). Imprime N copias con la base ancha sobre la cama.
+
+- Cada patron se imprime apoyado en su cara plana (z = 0), sin soportes. Esa cara es el plano de particion.
+- Salida de 3 grados en todas las paredes y sobremetal en todas las caras (3 mm minimo, 4,5 mm en la cara plana).
+- Los dientes de los engranes no estan en el patron: el bruto es el cono envolvente y los dientes se tallan despues.
+- Los agujeros pequeños estan rellenados; se taladran despues. Se conservan los huecos grandes de la 02 (anillo) y la 09 (ventana).
+- Posicion de las mazarotas, cajas necesarias y notas de cada pieza: carpeta fundicion\NN_Nombre\NN_ficha.md y NN_comprobacion.png.
+- Todo es preliminar: confirmar con el taller. No se simulo la solidificacion.

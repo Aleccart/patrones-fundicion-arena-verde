@@ -1,0 +1,6 @@
+# Versiones con las que se desarrollaron los patrones (Python 3.11)
+cadquery==2.8.0
+numpy==2.4.6
+scipy==1.17.1
+matplotlib==3.11.2
+scikit-image==0.26.0
